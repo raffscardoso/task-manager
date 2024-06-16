@@ -1,0 +1,68 @@
+.formulario div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 1.4rem;
+}
+.formulario .title-label {
+  font-size: 1.4rem;
+}
+
+.formulario .form-title-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.formulario .form-title-container .title-input {
+  flex: 1.5;
+}
+
+.formulario div input,
+textarea {
+  outline: unset;
+  padding: 1.2rem;
+  width: 22.5rem;
+  border: 1px solid #d8ae7e;
+  border-radius: 18px;
+}
+
+.formulario .form-description-container {
+  display: none;
+}
+
+.errorMessage {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.buttonAdd {
+  background-color: #74512d;
+  color: white;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  padding: 1.2rem;
+  border: 1px solid #d8ae7e;
+  border-radius: 20px;
+}
+
+.buttonAdd:hover {
+  background-color: #d8ae7e;
+}
+
+.add-description-btn {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.add-description-btn:hover {
+  border: 1px solid #d8ae7e;
+  border-radius: 10px;
+  background-color: #d8ae7e;
+}

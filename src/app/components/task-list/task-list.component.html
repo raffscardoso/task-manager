@@ -1,0 +1,22 @@
+@for (task of tasks; track $index){
+<div class="containerTaskList">
+  <div class="taskBox">
+    <label for="checkbox" class="custom-checkbox"
+      ><input
+        id="checkbox"
+        class="checkbox"
+        type="checkbox"
+        [checked]="task.completeStatus"
+        (change)="TaskToogle(task)" />
+      <span class="checkmark" (click)="changeBg($index)"></span
+    ></label>
+    <div class="task-text-container">
+      <h1 class="task-title">{{ task.title }}</h1>
+      <h2 class="task-description">{{ task.description }}</h2>
+    </div>
+  </div>
+  <button (click)="TaskDelete(task.id)">
+    <i class="gg-trash"></i>
+  </button>
+</div>
+}

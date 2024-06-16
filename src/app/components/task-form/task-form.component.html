@@ -1,0 +1,30 @@
+<form (ngSubmit)="onSubmit()" class="formulario" [formGroup]="form">
+  <label for="title" class="title-label">Title</label>
+  <div class="form-title-container">
+    <input
+      type="text"
+      id="title"
+      [(ngModel)]="title"
+      name="title"
+      formControlName="title"
+      class="title-input"
+    />
+    <button type="submit" class="buttonAdd">Add Task</button>
+    @if(form.controls['title'].invalid && form.controls['title'].touched){
+    <p class="errorMessage">Please enter a title!</p>
+    }
+  </div>
+  <button class="add-description-btn" (click)="addDescription()" type="button">
+    +Add Description
+  </button>
+  <div class="form-description-container">
+    <label for="description">Description</label>
+    <textarea
+      class="description"
+      id="description"
+      [(ngModel)]="description"
+      name="description"
+      formControlName="description"
+    ></textarea>
+  </div>
+</form>

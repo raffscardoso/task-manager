@@ -1,0 +1,77 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/trash.css");
+
+.taskBox {
+  width: 100%;
+  border: 1px solid #d8ae7e;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.taskBox .task-title {
+  font-size: 1.25rem;
+  margin-bottom: 1px;
+  text-decoration: none;
+}
+
+.taskBox .task-description {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.task-text-container {
+  padding: 2px;
+}
+
+.containerTaskList {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  background-color: #fadaae;
+  border: 1px solid #d8ae7e;
+  border-radius: 18px;
+}
+
+.gg-trash {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 10px;
+  height: 12px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px, inset -2px 0 0, inset 2px 0 0;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  margin: 6px;
+}
+
+.custom-checkbox .checkbox {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.custom-checkbox .checkmark {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #222;
+  display: inline-block;
+  border-radius: 3px;
+  background: #222
+    url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1200px-White_check.svg.png)
+    center/1200% no-repeat;
+}
