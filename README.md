@@ -1,4 +1,5 @@
 # Task Manager
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
 A functional task manager website using Angular 17, focusing on effective form validation using Reactive Forms module.
 
@@ -19,9 +20,10 @@ A functional task manager website using Angular 17, focusing on effective form v
 - **Delete a Task**: Click on the delete icon to remove a task
 - **View Tasks**: Tasks are displayed in a list, sorted by creation date
 
-![Captura de tela 2024-06-16 145154](https://github.com/raffscardoso/task-manager-app/assets/125293991/47bd53c5-e94c-4fcf-9aa1-5c4e097cef0e)
+![Captura de tela 2024-06-16 145154](https://github.com/raffscardoso/task-manager/assets/125293991/08ddece0-04ee-4152-999c-8c379a9cc9c4)
 
-![Captura de tela 2024-06-16 145332](https://github.com/raffscardoso/task-manager-app/assets/125293991/ac64fbfb-2cdc-45e4-9272-54b8ddf682be)
+![Captura de tela 2024-06-16 145332](https://github.com/raffscardoso/task-manager/assets/125293991/38cb0b47-55d0-46f1-8951-bbc2060038c0)
 
-![Captura de tela 2024-06-16 145344](https://github.com/raffscardoso/task-manager-app/assets/125293991/5d2b4c8b-9b86-4dc4-b0f0-7d61aa2ad5ce)
+![Captura de tela 2024-06-16 145344](https://github.com/raffscardoso/task-manager/assets/125293991/8c9ebb8e-e630-4bb3-ab77-b446e36bb84e)
+
 
